@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@color/color_FE6B6B"
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left|center"
+            android:scaleType="fitXY"
+            android:src="@drawable/shell_fourth_cancel_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于我们"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_qblog"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="当前版本：1.0"
+            android:textSize="15dp"
+            android:textColor="@color/gray_9"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_gx"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/ll_shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="检测更新"
+            android:layout_marginLeft="8dp"
+            android:textSize="15dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_add_forward"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="15dp"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

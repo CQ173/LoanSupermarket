@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@color/color_FE6B6B"
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left|center"
+            android:scaleType="fitXY"
+            android:src="@drawable/shell_fourth_cancel_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助与反馈"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/iv_Sure"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right|center"
+            android:scaleType="fitXY"
+            android:src="@drawable/shell_fourth_submit_icon"/>
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/ex_a"
+        android:layout_width="match_parent"
+        android:background="@drawable/ll_shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:hint="请输入您的手机号码或邮箱"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/ex_b"
+        android:layout_width="match_parent"
+        android:background="@drawable/ll_shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left|center"
+        android:hint="请写下建议或意见，我们将在2个工作日内给与答复"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="150dp" />
+
+</LinearLayout>
